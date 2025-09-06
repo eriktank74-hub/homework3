@@ -220,6 +220,13 @@ img {
     color: #2e2f42;
 
 }
+.features-list{
+    width: calc(100% - 60px) /3;
+    flex-direction: row-reverse;
+    display: flex;
+    margin: 0  auto;
+}
+
     /*      ---------SERVICES----------       */
 .team-item {
     background-color: #FFFFFF;
