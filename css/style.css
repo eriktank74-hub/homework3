@@ -18,6 +18,9 @@ a{
 p, h1, h2, h3, h4, h5, h6 {
     margin: 0;
 }
+img {
+    display: block;
+}
 
 .contyner {
     width: 500px;
@@ -31,9 +34,10 @@ p, h1, h2, h3, h4, h5, h6 {
     width: 1086px;
 }
     /*      ---------HEADER----------       */ 
-header {
+.header {
     padding-top: 40px;
     padding-bottom: 40px;
+    border-bottom: 1px solid #e7e9fc
 }
 .header-logo {
     font-family: "Raleway", sans-serif;
@@ -44,7 +48,7 @@ header {
     letter-spacing: 0.03em;
     color: #4D5AE5;
     text-transform: uppercase;
-   
+     border-bottom: 1px solid #e7e9fc
 
 }
 .logo-studio {
@@ -150,6 +154,10 @@ header {
     background: #404BBF;
 }
 
+.img-people {
+    display: block;
+    margin: 0 auto;}
+
     /*      ---------FEATURES----------       */
 .features {
     margin-top: 50px;
@@ -177,6 +185,11 @@ header {
     margin-top: 50px;
     margin-bottom: 20px;
 }
+.img-services {
+    display: block;
+    margin: 0 auto;
+}
+    /*      ---------TEAM----------       */
 .team {
     background-color: #F4F4FD 
 }
