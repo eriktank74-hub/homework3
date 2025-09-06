@@ -204,8 +204,10 @@ img {
     margin-bottom: 20px;
 }
 .img-services {
-    display: block;
-    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 34px;
+    width: calc(100% - 4px) /6;
 }
     /*      ---------TEAM----------       */
 .team {
@@ -251,6 +253,9 @@ img {
     display: flex;
     
 }
+
+
+
 .service-portfolio-title {
     font-size: 36px;
     font-weight: 500;
@@ -268,6 +273,11 @@ img {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    width: 360;
+    height: 300;
+    padding: 8px 16px;
+
+
 }
 .service-description {
     font-size: 16px;
