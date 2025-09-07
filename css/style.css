@@ -197,6 +197,8 @@ img {
 .features-description {
     line-height: 1.5;
     letter-spacing: 0.02em;
+    gap: 24px;
+    /*width: calc((100% - 72px) / 4);*/
 }
 .features-subtitle {
     font-weight: 500;
@@ -206,6 +208,8 @@ img {
     color: #2e2f42;
     margin-top: 50px;
     margin-bottom: 20px;
+    width: calc((100% - 72px) / 4);
+    margin-bottom: 8px;
 }
 .img-services {
     display: flex;
@@ -221,14 +225,13 @@ img {
 .subtitle-head {
     font-size: 36px;
     line-height: 1.11;
-    text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
-    margin-bottom: 8px;
     width: calc((100% - 72px) / 4);
-    border-radius: 0px 0px 4px 4px; 
     text-align: center;
+    margin-bottom: 72px;
+    border-radius: 0px 0px 4px 4px;
 
 }
 .features-list{
@@ -322,6 +325,8 @@ img {
 .selection-footer {
     background-color: #2e2f42;
     padding-bottom: 100px;
+    padding: 100px 0 ;
+
 }
 .footer-log-head {
     font-family: "Raleway", sans-serif;
@@ -333,6 +338,7 @@ img {
     color: #4d5ae5;
     text-transform: uppercase;
     margin-bottom: 16px;
+    display: inline-block; 
 }
 .footer-text {
     color: #f4f4fd;
