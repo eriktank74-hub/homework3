@@ -295,7 +295,7 @@ img {
     /*      ---------FOOTER----------       */
 .selection-footer {
     background-color: #2e2f42;
-    padding: 60px 30px;
+    padding-bottom: 100px;
 }
 .footer-log-head {
     font-family: "Raleway", sans-serif;
@@ -306,7 +306,7 @@ img {
     letter-spacing: 0.03em;
     color: #4d5ae5;
     text-transform: uppercase;
-    margin: 2px;
+    margin-bottom: 16px;
 }
 .footer-text {
     color: #f4f4fd;
